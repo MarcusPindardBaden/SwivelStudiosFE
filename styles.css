@@ -1,0 +1,57 @@
+body{
+    margin:0px;
+    background: linear-gradient(to top,antiquewhite, skyblue);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: "Concert One", sans-serif;
+}
+
+#banner{
+    width:auto;
+    Height:120px;
+    background-color: skyblue;
+    position: fixed;
+    border-bottom: 120px;
+}
+
+.banner{
+    animation:mySlide;
+    animation-duration: 8s;
+    animation-timing-function: ease-in-out
+}
+
+#bannerLogo{
+    position: relative;
+    height:120px;
+}
+
+.bannerButton{
+    position: absolute;
+    height: 60px;
+    width: 100px;
+    text-align: center;
+    font-family: inherit;
+    font-size: 22px;
+    color: rgb(43, 70, 80, 1) ;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    bottom: 20px;
+}
+
+
+#blogButton{
+    left: 260px;
+}
+
+#signUpButton{
+    left: 1600px;
+}
+
+
+
+
+
+@keyframes mySlide{
+    from{margin-left: 100%}
+    to{margin-left:0%}
+}
