@@ -1,22 +1,61 @@
-body{
+:root{
+    --main-color: skyblue;
+    --second-color:antiquewhite;
+    --third-color: rgb(43, 70, 80, 1);
+}
+
+
+*{
     margin:0px;
-    background: linear-gradient(to top,antiquewhite, skyblue);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    padding: 0px;
     font-family: "Concert One", sans-serif;
 }
 
-#banner{
-    width:auto;
-    Height:120px;
-    background-color: skyblue;
-    position: fixed;
-    border-bottom: 120px;
+body{
+    background: linear-gradient(to top,var(--second-color), var(--main-color));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
+header{
+    width:auto;
+    Height:120px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    border-bottom: 120px;
+    z-index: 1;
+    transition: 0.5s;
+}
+
+header.scroll{
+    position: sticky;
+    top: -120px;
+    left: 0;
+    height: 120px;
+    z-index: 1;
+    transition: 0.5s;
+}
+
+nav{
+    position:absolute;
+    left: 20%;
+    bottom: 20px;
+    width: 80%;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+
+.box{
+    height: 500px;
+}
 .banner{
     animation:mySlide;
-    animation-duration: 8s;
+    animation-duration: 4s;
     animation-timing-function: ease-in-out
 }
 
@@ -26,25 +65,28 @@ body{
 }
 
 .bannerButton{
-    position: absolute;
     height: 60px;
     width: 100px;
     text-align: center;
-    font-family: inherit;
     font-size: 22px;
-    color: rgb(43, 70, 80, 1) ;
-    background-color: antiquewhite;
+    color: var(--third-color) ;
+    background-color: var(--second-color);
     border-radius: 10px;
-    bottom: 20px;
 }
 
+.bannerButton:hover{
+    background-color: var(--third-color);
+    color: var(--second-color);
+    cursor: pointer;
+    transition: 0.3s;
+}
 
 #blogButton{
-    left: 260px;
+    left: 18%;
 }
 
 #signUpButton{
-    left: 1600px;
+    left: 90%;
 }
 
 

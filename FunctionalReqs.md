@@ -1,16 +1,17 @@
-#Functioanl Requirements for the first iteration:
+#Functional Requirements for the first iteration:
 
 Top banner:
-- Options to go to all blogs
+- Options to go to all blogs - done
 - Clicking logo goes back to home page
-- Subscribe to newsletter
+- Subscribe to newsletter - done
 - Disappear then reappear when hovering over the area
-- Swivel Studios Logo animates in
-- Goes across all pages
+- Swivel Studios Logo animates in - done
+- Goes across all pages - done
 
 Footer:
 - Colour contrasts the theme used on body
 - Contains links to all main pages on sitemap
+- Consistent across all pages
 
 Homepage:
 - Swivel Logo centred
