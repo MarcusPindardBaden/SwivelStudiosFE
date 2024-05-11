@@ -4,6 +4,7 @@ banner.innerHTML = `
 <a href="index.html"><img src="images/SwivelStudiosCroppedLogo.png" id="bannerLogo"></img></a>
 <nav>
 <ul>
+<li><a href="clothingHome.html" class="headerLink">Clothing</a><li>
 <li><a href="blogsPage.html" class="headerLink">Blogs</a></li>
 <li><a href="signUp.html" class="headerLink">Sign Up</a></li>
 </ul>

@@ -1,23 +1,3 @@
-:root{
-    --main-color: skyblue;
-    --second-color:antiquewhite;
-    --third-color: rgb(43, 70, 80, 1);
-}
-
-
-*{
-    margin:0px;
-    padding: 0px;
-    font-family: "Concert One", sans-serif;
-}
-
-body{
-    /* background: linear-gradient(to top,var(--second-color), var(--main-color)); */
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-color: antiquewhite;
-}
-
 header{
     width:auto;
     Height:120px;
@@ -27,7 +7,7 @@ header{
     border-bottom: 120px;
     z-index: 1;
     transition: 0.5s;
-    background: linear-gradient(to top left,var(--second-color), var(--main-color));
+    background: linear-gradient(to top right,var(--second-color), var(--main-color));
 }
 
 header.scroll{
@@ -74,30 +54,16 @@ nav ul{
     width: 100%;
     transition: width 0.3s;
 }
-
-h1{
-    text-align: center;
-    font-size: 128px;
-    color: var(--third-color);
-    text-shadow: 8px 2px 5px var(--main-color)
-    /* -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: var(--third-color); */
-}
-
-#logoAnimation{
-    align-self: center;
-    display: block;
-    margin-left:auto;
-    margin-right: auto;
-    width: 40%;
+.blankspace{
+    height: 200px;
 }
 
 
-.banner{
+/* .banner{
     animation:mySlide;
     animation-duration: 4s;
     animation-timing-function: ease-in-out
-}
+} */
 
 #bannerLogo{
     position: relative;
@@ -109,7 +75,7 @@ h1{
 
 
 
-@keyframes mySlide{
-    from{margin-left: 100%}
+/* @keyframes mySlide{
+    from{margin-left: 90%;}
     to{margin-left:0%}
-}
+} */

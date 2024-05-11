@@ -9,8 +9,8 @@ Top banner:
 - Goes across all pages - done
 
 Footer:
-- Colour contrasts the theme used on body
-- Contains links to all main pages on sitemap
+- Colour contrasts the theme used on body - done
+- Contains links to all main pages on sitemap - done
 - Consistent across all pages
 
 Homepage:
