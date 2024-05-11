@@ -12,9 +12,10 @@
 }
 
 body{
-    background: linear-gradient(to top,var(--second-color), var(--main-color));
+    /* background: linear-gradient(to top,var(--second-color), var(--main-color)); */
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-color: antiquewhite;
 }
 
 header{
@@ -26,6 +27,7 @@ header{
     border-bottom: 120px;
     z-index: 1;
     transition: 0.5s;
+    background: linear-gradient(to top left,var(--second-color), var(--main-color));
 }
 
 header.scroll{
@@ -40,7 +42,7 @@ header.scroll{
 nav{
     position:absolute;
     left: 20%;
-    bottom: 20px;
+    bottom: 30%;
     width: 80%;
 }
 
@@ -54,16 +56,17 @@ nav ul{
 {
     font-size: 32px;
     text-decoration: none;
-    color: var(--second-color);
-    text-transform: uppercase;
+    color: var(--third-color);
+    /* text-transform: uppercase; */
+    text-shadow: 2px 2px 1px var(--second-color);
 }
 
 .headerLink::after{
     content: '';
     display:block;
     width: 0;
-    height: 1px;
-    background: var(--second-color);
+    height: 4px;
+    background: var(--third-color);
     transition: width 0.3s;
 }
 
@@ -75,15 +78,21 @@ nav ul{
 h1{
     text-align: center;
     font-size: 128px;
-    color: var(--second-color);
-    text-shadow: 8px 2px 5px var(--third-color)
+    color: var(--third-color);
+    text-shadow: 8px 2px 5px var(--main-color)
     /* -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: var(--third-color); */
 }
 
-.box{
-    height: 500px;
+#logoAnimation{
+    align-self: center;
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+    width: 40%;
 }
+
+
 .banner{
     animation:mySlide;
     animation-duration: 4s;
@@ -95,30 +104,6 @@ h1{
     height:120px;
 }
 
-.bannerButton{
-    height: 60px;
-    width: 100px;
-    text-align: center;
-    font-size: 22px;
-    color: var(--third-color) ;
-    background-color: var(--second-color);
-    border-radius: 10px;
-}
-
-.bannerButton:hover{
-    background-color: var(--third-color);
-    color: var(--second-color);
-    cursor: pointer;
-    transition: 0.3s;
-}
-
-#blogButton{
-    left: 18%;
-}
-
-#signUpButton{
-    left: 90%;
-}
 
 
 
