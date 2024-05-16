@@ -15,6 +15,7 @@ footer.innerHTML = `
                 <li class = "footerTitle">The Other Bits</li>
 
                 <li class = "footerItem"><a href="https://www.treesforstreets.org/" target="_blank" class="footerItemLink">Trees For Streets</a></li>
+                <li class = "footerItem"><a href="aboutUs.html" target="_blank" class="footerItemLink">About Us</a></li>
             </ul>
         </div>
         <div class="footerColumn">

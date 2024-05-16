@@ -1,7 +1,6 @@
 header{
     width:auto;
     Height:120px;
-    position: sticky;
     top: 0;
     left: 0;
     border-bottom: 120px;
@@ -20,16 +19,17 @@ header.scroll{
 }
 
 nav{
-    position:absolute;
-    left: 20%;
-    bottom: 30%;
-    width: 80%;
+    flex-direction: row;
+    display: flex;
+    width:95%;
 }
 
 nav ul{
     display: flex;
     list-style: none;
+    width:100%;
     justify-content: space-around;
+    align-items: center;
 }
 
 .headerLink
@@ -58,16 +58,23 @@ nav ul{
     height: 200px;
 }
 
-
-/* .banner{
-    animation:mySlide;
-    animation-duration: 4s;
-    animation-timing-function: ease-in-out
-} */
+.banner{
+    margin-right: 2%;
+    height:100%;
+    display: flex;
+}
 
 #bannerLogo{
     position: relative;
-    height:120px;
+    display: block;
+    height: 100%;
+    margin-right: 2%;
+
+}
+
+.imageContainer{
+    height:100%;
+    width: fit-content;
 }
 
 

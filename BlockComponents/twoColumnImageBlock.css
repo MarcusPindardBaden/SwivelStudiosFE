@@ -1,0 +1,70 @@
+.twoColumnImageBlock{
+    width:auto;
+    height: fit-content;
+    flex-flow: row wrap;
+    display:flex;
+    justify-content: space-around;
+    flex-direction: row;
+    color: var(--third-color);
+}
+
+.imageBlockColumn{
+    width:40%;
+    height:auto;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.blockImageHigher{
+    width: 90%;
+    height: 40%;
+    margin-top: 10%;
+    display: block;
+    border-radius: 2%;
+}
+
+.blockImageLower{
+    width: 90%;
+    height: 40%;
+    margin-top: 60%;
+    display: block;
+    border-radius: 2%;
+}
+
+.blockImageHigher:hover{
+    color: var(--third-color);
+    width: 100%;
+    height: 45%;
+    transition: 0.3s;
+}
+
+.blockImageLower:hover{
+    color: var(--third-color);
+    width: 100%;
+    height: 45%;
+    transition: 0.3s;
+}
+
+.blockImageTitle{
+    color: var(--third-color);
+}
+
+.twoColumnBlockLink{
+  color: var(--third-color);
+  font-weight:bold;
+  font-size: 32px;
+}
+
+.twoColumnBlockText{
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
+
+.twoColumnBlockLink:hover{
+    text-shadow: 2px 4px 5px var(--main-color);
+    transition: 0.3s;
+    font-weight:bold;
+    font-size: 36px;
+}
