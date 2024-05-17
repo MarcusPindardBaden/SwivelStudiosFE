@@ -11,11 +11,11 @@ Top banner:
 Footer:
 - Colour contrasts the theme used on body - done
 - Contains links to all main pages on sitemap - done
-- Consistent across all pages
+- Consistent across all pages - done
 
 Homepage:
-- Swivel Logo centred
-- Image changes every couple of seconds to show the different logo colours
+- Swivel Logo centred - done
+- Image changes every couple of seconds to show the different logo colours - done
 - Ability to add/link to products Support ad space Music appear on load
 - Animation on load to match the music
 
