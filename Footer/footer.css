@@ -7,8 +7,7 @@ footer{
     list-style: none;
     justify-content: space-around;
     color: var(--second-color);
-    margin-top: 0%;
-    bottom: 0;
+    bottom: 0px;
     position:absolute;
 }
 
@@ -18,7 +17,7 @@ footer{
     top: 0px;
     display: block;
     margin-left:auto;
-    margin-top: 60%;
+    margin-top: 20%;
     margin-right: 10%;
 }
 

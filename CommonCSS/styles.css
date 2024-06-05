@@ -4,11 +4,15 @@
     --third-color: rgb(43, 70, 80, 1);
 }
 
+html{
+    height:100%;
+}
 
 *{
     margin:0px;
     padding: 0px;
     font-family: "Concert One", sans-serif;
+    position: relative;
 }
 
 body{
@@ -16,6 +20,8 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-color: antiquewhite;
+    min-height: 100%;
+    padding-bottom: 440px;
 }
 
 li{
