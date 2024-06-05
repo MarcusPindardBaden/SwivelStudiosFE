@@ -6,5 +6,5 @@ function logoImageChange(){
     index = (index+1) % imageArray.length;
 }
 
-setInterval(logoImageChange, 500);
+setInterval(logoImageChange, 5000);
 

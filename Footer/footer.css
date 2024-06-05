@@ -1,14 +1,15 @@
 
 footer{
     height:400px;
-    width:auto;
+    width:100%;
     background-color: var(--third-color);
     display: flex;
     list-style: none;
     justify-content: space-around;
     color: var(--second-color);
     margin-top: 0%;
-    margin-bottom: auto;
+    bottom: 0;
+    position:absolute;
 }
 
 #footerLogo{

@@ -10,5 +10,5 @@
     height: 100%;
     display: block;
     object-fit: cover;
-    mask-image: linear-gradient(to top, transparent 5%, black 30%);
+    mask-image: linear-gradient(to top, transparent 1%, black 15%);
 }
