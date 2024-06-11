@@ -1,14 +1,14 @@
 console.log(banner);
 banner.innerHTML = `
 <div class="banner">
-<div class="imageContainer"><img id="bannerLogo" src="images/SwivelStudiosCroppedLogo.png"></img></div>
+<div class="imageContainer"><img id="bannerLogo" src="../images/SwivelStudiosCroppedLogo.png"></img></div>
 <nav>
 <ul>
-<li><a href="index.html" class="headerLink">Home</a></li>
-<li><a href="clothingHome.html" class="headerLink">Clothing</a></li>
-<li><a href="blogsPage.html" class="headerLink">Blogs</a></li>
-<li><a href="aboutUs.html" class="headerLink">About</a></li>
-<li><a href="signUp.html" class="headerLink">Sign Up</a></li>
+<li><a href='../index.html' class="headerLink">Home</a></li>
+<li><a href='../clothingHome.html' class="headerLink">Clothing</a></li>
+<li><a href='../blogs.html' class="headerLink">Blogs</a></li>
+<li><a href= '../aboutUs.html' class="headerLink">About</a></li>
+<li><a href= '../signUp.html' class="headerLink">Sign Up</a></li>
 </ul>
 </nav>
 </div>

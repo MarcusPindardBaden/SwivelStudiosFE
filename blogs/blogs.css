@@ -1,0 +1,27 @@
+.blogPageIntro{
+    color: var(--third-color);
+    width: 70%;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.paragraphBox{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: auto;
+    margin-bottom: 3%;
+}
+
+.blogPageParagraph{
+    color: var(--third-color);
+    width: 60%;
+    font-size: 32px;
+}
+
+ol.paragraphList{
+    color: var(--third-color);
+    font-size: 32px;
+    font-weight: bold;
+    font-style: italic;
+}

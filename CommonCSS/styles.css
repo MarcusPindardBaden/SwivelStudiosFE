@@ -70,17 +70,5 @@ a{
 }
 
 
-.blogPageIntro{
-    color: var(--third-color);
-    width: 70%;
-    text-align: center;
-    font-size: 40px;
-}
-
-.paragraphBox{
-    display: flex;
-    width: auto;
-    justify-content: center;
-}
 
 
